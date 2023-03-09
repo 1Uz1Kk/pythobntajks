@@ -1,6 +1,6 @@
 import random
 
-print("Task 1")
+'''print("Task 1")
 print("By Using Binary Search, I Can Guess Numbers Faster.")
 print("Write The Range Of Numbers From Which You Will Pick The Number.")
 num1 = int(input("Lower Boundary: "))
@@ -36,4 +36,16 @@ b = c-z
 c = z+y+c
 print(a, "( We Did A+B )")
 print(b, "( We Did C-A )")
-print(c, "( We Did A+B+C )")
+print(c, "( We Did A+B+C )")'''
+
+print("Task 3")
+numbers = [int(number) for number in input('Enter the numbers: ').split()]
+
+
+def convert(km):
+    miles = km / 1.6
+    return miles
+
+
+times = list(map(convert, numbers))
+print(times)
