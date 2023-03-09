@@ -1,5 +1,6 @@
 import random
 
+print("Task 1")
 print("By Using Binary Search, I Can Guess Numbers Faster.")
 print("Write The Range Of Numbers From Which You Will Pick The Number.")
 num1 = int(input("Lower Boundary: "))
@@ -23,3 +24,16 @@ while var1 == 0:
         print(str1)
         var2 += 1
 print("Secret Number Was Guessed In", var2, "Attempts!")
+
+print("Task 2")
+a = int(input("Enter A:"))
+b = int(input("Enter B:"))
+c = int(input("Enter C:"))
+z = a
+y = b
+a = a+b
+b = c-z
+c = z+y+c
+print(a, "( We Did A+B )")
+print(b, "( We Did C-A )")
+print(c, "( We Did A+B+C )")
